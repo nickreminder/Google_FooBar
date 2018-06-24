@@ -13,12 +13,18 @@ Coding challenges completed through Google's "secret" recruiting platform.
    Test cases
 
    Inputs:
+
        (int list) l = [3, 1, 4, 1]
+
    Output:
+
        (int) 4311
 
    Inputs:
+
        (int list) l = [3, 1, 4, 1, 5, 9]
+
    Output:
+   
        (int) 94311
 
