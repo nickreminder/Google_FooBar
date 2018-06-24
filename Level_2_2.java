@@ -14,13 +14,14 @@ public class Level_2_2 {
 
     public static int answer(int[] l) { 
         Arrays.sort(l);
-;        return makeLargestNumber(l);
+        return makeLargestNumber(l);
     }
     
-    private static int makeLargestNumber(int[] sortedL) {
+        private static int makeLargestNumber(int[] sortedL) {
         if (sortedL.length == 1) {
             return sortedL[0];
         }
+        // A number is divisible by 3 if and only if so is the sum of its digits
         int sum = 0;
         for (int i : sortedL) {
             sum += i;
@@ -36,7 +37,7 @@ public class Level_2_2 {
     private static int digitsToInt(int[] sortedL) {
         int total = 0;
         for (int i=0; i<sortedL.length; i++) {
-            total += ((Math.pow(10, i)) * sortedL[i]);
+            total += (Math.pow(10, i) * sortedL[i]);
         }
         return total;
     }
