@@ -1,5 +1,4 @@
 # Google FooBar
-===============
 
 Coding challenges completed through Google's "secret" recruiting platform.
 
